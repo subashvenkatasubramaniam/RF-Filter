@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Services - RF Filters</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/services.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+   <!-- Header  -->
+        <div id="header-placeholder"></div>
+
+   <!-- Main section  -->
+
+<section class="filter-section">
+  <div class="filter-container">
+
+    <!-- Left Side -->
+    <div class="filter-left">
+      <div class="badges">
+        <img src="images/Made-in-USA.webp" alt="Made in USA">
+        <img src="images/UL-Listed.webp" alt="UL Listed">
+      </div>
+      <div class="filter-image">
+        <img src="images/FCL-55-66-660-Series-1.webp" alt="Filter Diagram">
+      </div>
+    </div>
+
+    <!-- Right Side -->
+    <div class="filter-right">
+      <h1>RFI EMC Filters Accessories FCL 55, -66, -660 Series</h1>
+      <h3 class="subheading">UL APPROVED CABINETS DMC-FC-20 000 SERIES</h3>
+      <p>
+        DMC-FCL 55, -66, -660 Series Filters are available installed in UL approved cabinets with standard knockouts.
+      </p>
+      <a href="#" class="quote-button">Request Quote</a>
+    </div>
+
+    </div>
+  </section>
+
+
+  <section class="product-section">
+    <h2>Select suitable size from chart</h2>
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Part No</th>
+                <th>Dimensions (inches)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>DMC-FC-20 000-1</td>
+                <td>10 × 10 × 3</td>
+            </tr>
+            <tr>
+                <td>DMC-FC-20 000-2</td>
+                <td>18 × 12 × 4</td>
+            </tr>
+            <tr>
+                <td>DMC-FC-20 000-3</td>
+                <td>18 × 12 × 6</td>
+            </tr>
+            <tr>
+                <td>DMC-FC-20 000-4</td>
+                <td>24 × 18 × 6</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>DMC-COIL DISCHARGE UNIT FC-10 000 SERIES</h3>
+    <p>
+        RFI/EMC filters contain large, high quality capacitor sections which can store dangerous charges of electrical energy long after the main source of electrical power has been turned off. All filtered circuits and power supply lines can present a serious hazard to personnel and equipment unless filter capacitors are properly and safely discharged. The capacitor discharge device is a mandatory safety requirement under NEC 460 and NEMA Standard 11-17-1960.
+    </p>
+
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Part No</th>
+                <th>Application</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>DMC-FC-10 000-1</td>
+                <td>1 filtered circuit</td>
+            </tr>
+            <tr>
+                <td>DMC-FC-10 000-2</td>
+                <td>2 filtered circuits</td>
+            </tr>
+            <tr>
+                <td>DMC-FC-10 000-3</td>
+                <td>3 filtered circuits</td>
+            </tr>
+            <tr>
+                <td>DMC-FC-10 000-4</td>
+                <td>4 filtered circuits</td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="note">Red Pilot light furnished for each filtered circuit.</p>
+</section>
+
+
+   <script src="../js/main.js"></script>
+
+   <!--header script-->
+    <script>
+      fetch('header.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('header-placeholder').innerHTML = data;
+    })
+    .catch(error => {
+      console.error('Error loading header:', error);
+    });
+    </script>
+
+ <!-- Footer -->
+      <div id="footer"></div>
+   <script>
+  fetch("/footer.html")
+    .then(response => response.text())
+    .then(data => document.getElementById("footer").innerHTML = data);
+</script>
+
+</body>
+</html>

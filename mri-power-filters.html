@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>MRI Power Filters</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/services.css">
+    <link rel="stylesheet" href="../css/product-detail.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header-placeholder"></div>
+
+
+
+<div class="mri-section">
+  <div class="mri-top-badges">
+    <img src="\images\Made-in-USA.webp" alt="Made in USA">
+    <img src="\images\UL-Listed.webp" alt="UL Listed">
+  </div>
+
+  <div class="mri-content">
+    <div class="mri-images">
+      <div class="mri-side-links">
+        <img src="\images\MRI-filters.webp" alt="MRI Buttons">
+      </div>
+    </div>
+
+    <div class="mri-text">
+      <h2>MRI Power Filters</h2>
+      <p>
+        DMC is the leading supplier of MRI room AC power line filters in the US. We offer complete solution MRI/MRA room filters, telephone filters, fire alarm filters and Ethernet filters. DMC filters are designed in the US to meet MIL-Std-220A and are UL approved. They are specially designed for the rapidly expanding medical MRI field.
+      </p>
+      <a href="#" class="quote-button">Request Quote</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="table-container">
+  <table class="styled-table">
+    <thead>
+      <tr>
+        <th>Part Number</th>
+        <th>Current</th>
+        <th>Voltage</th>
+        <th>Frequency</th>
+        <th>Length (Inches)</th>
+        <th>Width (Inches)</th>
+        <th>Height (Inches)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>DMC-FC-3147 (MRI Filter)*</td>
+        <td>2 x 30</td>
+        <td>277 VAC</td>
+        <td>0-60Hz</td>
+        <td>12</td>
+        <td>4</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>DMC-FC-754A (Fire Alarm Filter)</td>
+        <td>2 x 1 Amp</td>
+        <td>120 VAC</td>
+        <td>0-60Hz</td>
+        <td>9</td>
+        <td>3.5</td>
+        <td>2.5</td>
+      </tr>
+      <tr>
+        <td>DMC-FC-200A (Telephone Filter)</td>
+        <td>2 x .5 Amp</td>
+        <td>120 VAC</td>
+        <td>0-60Hz</td>
+        <td>6.81</td>
+        <td>3.5</td>
+        <td>2.5</td>
+      </tr>
+      <tr>
+        <td>DMC-FC-1193 (Data Filter)</td>
+        <td>2 x .15 Amp</td>
+        <td>250 VAC / 600 VDC</td>
+        <td>0-60Hz</td>
+        <td>6.81</td>
+        <td>3.5</td>
+        <td>2.5</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+    <script src="../js/main.js"></script>
+    <script>
+      fetch('header.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('header-placeholder').innerHTML = data;
+    })
+    .catch(error => {
+      console.error('Error loading header:', error);
+    });
+    </script>
+
+ <!-- Footer -->
+      <div id="footer"></div>
+   <script>
+  fetch("/footer.html")
+    .then(response => response.text())
+    .then(data => document.getElementById("footer").innerHTML = data);
+</script>
+
+
+</body>
+</html>

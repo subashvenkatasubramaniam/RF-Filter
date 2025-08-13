@@ -1,0 +1,84 @@
+<!-- header.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="stylesheet" href="../css/style.css"/>
+  <link rel="stylesheet" href="../css/services.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="nav-logo">
+      <a href="index.html" class="logo-link">
+        <img src="images/dmcfr.webp" alt="RF Filters Logo"/>
+        <span class="logo-text">RF Filters</span>
+      </a>
+    </div>
+    <div class="nav-menu" id="nav-menu">
+      <div class="nav-item">
+        <a href="index.html" class="nav-link ">Home</a>
+      </div>
+      <div class="nav-item">
+        <a href="#" class="nav-link ">Services</a>
+        <div class="dropdown">
+          <div class="dropdown-item item1 has-submenu">
+            <a href="rfi-emc-filters.html" class="submenu-toggle">RFI EMC Filters</a>
+            <ul class="sub-menu">
+              <li><a href="emi-rfi-power-line-filters.html">EMI Power Line Filters</a></li>
+              <li><a href="rfi-emc-filters-5-to-300-amp-fcl-66-660.html">RFI EMC Filters 5 to 300 AMP FCL-66,-660</a></li>
+              <li><a href="rfi-emc-filters-25-to-200-amp-dmc-fcl-11-110-14-140-1.html">RFI EMC Filters 25 to 200 AMP DMC FCL-11, -110, -14, -140,-1</a></li>
+              <li><a href="rfi-emc-filters-accessories-fcl-55-66-660-series.html">RFI EMC Filters Accessories FCL 55, -66, -660 Series</a></li>
+            </ul>
+          </div>
+          <div class="dropdown-item has-submenu">
+            <a href="power-filters.html" class="submenu-toggle">Power Filters</a>
+            <ul class="sub-menu">
+              <li><a href="emi-power-line-filters.html">EMI Power line filters</a></li>
+              <li><a href="hemp-filters.html">HEMP Filters</a></li>
+              <li><a href="military-emi-filters.html">Military EMI Filters</a></li>
+              <li><a href="mri-power-filters.html">MRI Power Filters</a></li>
+              <li><a href="tempest-cots-emi-power-line-filter.html">TEMPEST COTS EMI Power Line Filter</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="about-us.html" class="nav-link">About Us</a>
+      </div>
+      <div class="nav-item">
+        <a href="blog.html" class="nav-link">Blog</a>
+      </div>
+      <div class="nav-item">
+        <a href="contact-us.html" class="nav-link">Contact</a>
+      </div>
+    </div>
+    <div class="nav-toggle" id="nav-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const currentPage = window.location.pathname.split('/').pop(); // get the file name
+    document.querySelectorAll('.nav-link').forEach(link => {
+      const linkPage = link.getAttribute('href').split('/').pop();
+      if (linkPage === currentPage) {
+        link.classList.add('active');
+      }
+    });
+  });
+</script>
+
+<script src="/main.js"></script>
+</body>
+</html>

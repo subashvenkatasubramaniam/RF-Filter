@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Blog - RF Filters</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/blog.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header  -->
+         <div id="header-placeholder"></div>
+
+    <!-- Hero Section -->
+    <section class="blog-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Technical Resources & Blog</h1>
+                <p>Expert insights, technical guides, and industry updates on EMI/RFI filtering</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Article -->
+    <section class="featured-article">
+        <div class="container">
+            <div class="featured-content">
+                <div class="featured-image">
+                    <img src="https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=800" alt="EMI Filter Design">
+                </div>
+                <div class="featured-text">
+                    <span class="featured-tag">Featured Article</span>
+                    <h2>Understanding MIL-STD-461 EMI Filter Requirements</h2>
+                    <p>A comprehensive guide to military electromagnetic interference standards and how to select the right filter for defense applications. Learn about the latest updates to MIL-STD-461 and their impact on filter design.</p>
+                    <div class="article-meta">
+                        <span class="author">By Sarah Johnson, CTO</span>
+                        <span class="date">January 15, 2025</span>
+                        <span class="read-time">8 min read</span>
+                    </div>
+                    <a href="#" class="btn btn-primary">Read Article</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Categories -->
+    <section class="blog-categories">
+        <div class="container">
+            <h2 class="section-title">Browse by Category</h2>
+            <div class="categories-grid">
+                <div class="category-card" data-category="technical-guides">
+                    <div class="category-icon">🔧</div>
+                    <h3>Technical Guides</h3>
+                    <p>In-depth technical documentation and application guides</p>
+                    <span class="post-count">12 articles</span>
+                </div>
+                <div class="category-card" data-category="industry-news">
+                    <div class="category-icon">📰</div>
+                    <h3>Industry News</h3>
+                    <p>Latest updates and trends in EMI/RFI filtering</p>
+                    <span class="post-count">8 articles</span>
+                </div>
+                <div class="category-card" data-category="case-studies">
+                    <div class="category-icon">📊</div>
+                    <h3>Case Studies</h3>
+                    <p>Real-world applications and success stories</p>
+                    <span class="post-count">6 articles</span>
+                </div>
+                <div class="category-card" data-category="product-updates">
+                    <div class="category-icon">🚀</div>
+                    <h3>Product Updates</h3>
+                    <p>New product announcements and feature releases</p>
+                    <span class="post-count">4 articles</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts -->
+    <section class="blog-posts">
+        <div class="container">
+            <div class="posts-header">
+                <h2>Latest Articles</h2>
+                <div class="filter-tabs">
+                    <button class="filter-tab active" data-filter="all">All</button>
+                    <button class="filter-tab" data-filter="technical-guides">Technical</button>
+                    <button class="filter-tab" data-filter="industry-news">News</button>
+                    <button class="filter-tab" data-filter="case-studies">Cases</button>
+                </div>
+            </div>
+
+            <div class="posts-grid">
+                <!-- Technical Guide Posts -->
+                <article class="blog-card" data-category="technical-guides">
+                    <div class="blog-image">
+                        <img src="https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=400" alt="HEMP Filter Design">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-category">Technical Guide</span>
+                        <h3>HEMP Filter Design Considerations for Critical Infrastructure</h3>
+                        <p>Essential factors to consider when designing High-altitude Electromagnetic Pulse protection systems for power grids and communication networks.</p>
+                        <div class="blog-meta">
+                            <span class="author">Michael Chen</span>
+                            <span class="date">January 12, 2025</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="industry-news">
+                    <div class="blog-image">
+                        <img src="https://images.pexels.com/photos/236010/pexels-photo-236010.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Medical EMI Standards">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-category">Industry News</span>
+                        <h3>New IEC 60601-1-2 Medical EMC Standards Update</h3>
+                        <p>Overview of the latest changes to medical electromagnetic compatibility standards and their impact on MRI and medical device filtering requirements.</p>
+                        <div class="blog-meta">
+                            <span class="author">Dr. Lisa Wang</span>
+                            <span class="date">January 10, 2025</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="case-studies">
+                    <div class="blog-image">
+                        <img src="https://images.pexels.com/photos/68371/pexels-photo-68371.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Naval Application">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-category">Case Study</span>
+                        <h3>Naval Radar System EMI Suppression Success Story</h3>
+                        <p>How custom FCL-660 series filters solved critical interference issues in a next-generation naval radar installation, improving detection range by 40%.</p>
+                        <div class="blog-meta">
+                            <span class="author">James Rodriguez</span>
+                            <span class="date">January 8, 2025</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="technical-guides">
+                    <div class="blog-image">
+                        <img src="https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=400" alt="TEMPEST Compliance">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-category">Technical Guide</span>
+                        <h3>TEMPEST Compliance: Filter Selection Guide</h3>
+                        <p>Complete guide to selecting and implementing TEMPEST-compliant EMI filters for classified environments and information security applications.</p>
+                        <div class="blog-meta">
+                            <span class="author">Sarah Johnson</span>
+                            <span class="date">January 5, 2025</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="product-updates">
+                    <div class="blog-image">
+                        <img src="https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?auto=compress&cs=tinysrgb&w=400" alt="New MRI Filters">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-category">Product Update</span>
+                        <h3>Introducing Ultra-Low Leakage MRI Power Filters</h3>
+                        <p>New series of medical-grade power filters with industry-leading low leakage current specifications for next-generation MRI systems.</p>
+                        <div class="blog-meta">
+                            <span class="author">Product Team</span>
+                            <span class="date">January 3, 2025</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="industry-news">
+                    <div class="blog-image">
+                        <img src="https://images.pexels.com/photos/3184639/pexels-photo-3184639.jpeg?auto=compress&cs=tinysrgb&w=400" alt="5G EMI Challenges">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-category">Industry News</span>
+                        <h3>5G Deployment Creates New EMI Filtering Challenges</h3>
+                        <p>Analysis of electromagnetic interference challenges posed by 5G networks and the filtering solutions needed for coexistence with existing systems.</p>
+                        <div class="blog-meta">
+                            <span class="author">Technical Team</span>
+                            <span class="date">December 28, 2024</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="load-more">
+                <button class="btn btn-secondary">Load More Articles</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our technical newsletter for the latest insights on EMI/RFI filtering and industry developments.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/blog.js"></script>
+
+   <!--header script-->
+    <script>
+      fetch('header.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('header-placeholder').innerHTML = data;
+    })
+    .catch(error => {
+      console.error('Error loading header:', error);
+    });
+    </script>
+
+       <!-- Footer -->
+      <div id="footer"></div>
+   <script>
+  fetch("/footer.html")
+    .then(response => response.text())
+    .then(data => document.getElementById("footer").innerHTML = data);
+</script>
+
+</body>
+</html>
